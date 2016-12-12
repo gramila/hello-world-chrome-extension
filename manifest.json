@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    
+    "name": "Hello World",
+    "description": "This is my first Chrome extension",
+    "version": "1.0",
+
+    "browser_action": {
+        "default_icon": "icon.png", // needs to be 19px by 19px
+        "default_popup": "popup.html"
+    }
+
+}

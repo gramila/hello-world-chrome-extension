@@ -4,8 +4,10 @@
     "name": "Hello World",
     "description": "This is my first Chrome extension",
     "version": "1.0",
-
-    "browser_action": {
+    
+// browser action  means its an extension that is going to appear in the 
+// toolbar and when we click it its going to display something 
+    "browser_action": {   
         "default_icon": "icon.png", // needs to be 19px by 19px
         "default_popup": "popup.html"
     }
